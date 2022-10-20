@@ -1,11 +1,27 @@
 .header {
+  .container-header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+}
+
+.header-branch{
   .logo {}
 }
 
-.header-branch{}
-
 .header-nav {
-  .nav-items {}
-  .nav-item {}
+  
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-item {
+    padding: .5rem;
+    border: 1px solid $c-gray-2;
+    margin-right: .5rem;
+  }
   .nav-link {}
 }

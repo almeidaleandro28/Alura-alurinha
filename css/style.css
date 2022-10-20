@@ -58,6 +58,23 @@ table {
   padding: 0;
 }
 
+.header .container-header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.header-nav .nav-items {
+  display: flex;
+  flex-direction: row;
+}
+.header-nav .nav-item {
+  padding: 0.5rem;
+  border: 1px solid #cccccc;
+  margin-right: 0.5rem;
+}
 body {
   background-color: #ffffff;
   height: 100vh;
@@ -66,6 +83,12 @@ body {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
