@@ -1,5 +1,5 @@
 {
-  "scripts": {"sass": "/media/leandro/DATAS-1/FRONT/Alura-alurinha/scss/style.scss /media/leandro/DATAS-1/FRONT/Alura-alurinha/css/style.css"},
+  "scripts": {"sass": "node_modules/.bin/sass scss/style.scss css/style.css"},
   "dependencies": {
     "sass": "^1.55.0"
   }
