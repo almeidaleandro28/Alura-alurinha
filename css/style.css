@@ -75,6 +75,27 @@ table {
   border: 1px solid #cccccc;
   margin-right: 0.5rem;
 }
+.courses {
+  text-align: center;
+  background-color: #cccccc;
+}
+.courses .container-courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.courses .course-pack {
+  background-color: #cccccc;
+  margin-bottom: 1rem;
+}
+
+.course {
+  background-color: #ffffff;
+  width: 150px;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
 body {
   background-color: #ffffff;
   height: 100vh;
