@@ -96,6 +96,26 @@ table {
   padding-bottom: 1rem;
   margin-top: 1rem;
 }
+.about {
+  background-color: #5EC6F3;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.about .container-about {
+  display: flex;
+  flex-direction: row;
+}
+.about .about-video {
+  width: 50%;
+}
+
+.about-benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 50%;
+}
 body {
   background-color: #ffffff;
   height: 100vh;
@@ -110,6 +130,10 @@ a {
   text-decoration: none;
   list-style: none;
   color: #000000;
+}
+
+.btn {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */

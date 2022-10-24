@@ -3,6 +3,7 @@
 @import "responsive";
 @import "header";
 @import "courses";
+@import "about";
 
 body {
   background-color: $c-white;
@@ -18,4 +19,8 @@ a {
   text-decoration: none;
   list-style: none;
   color: $c-black;
+}
+
+.btn {
+ text-transform: uppercase; 
 }
