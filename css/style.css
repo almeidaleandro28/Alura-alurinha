@@ -131,6 +131,41 @@ table {
   color: #ffffff;
 }
 
+.map {
+  color: #ffffff;
+  background-color: #324C64;
+  margin-top: 1rem;
+}
+.map .map-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.map .map-title {
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+}
+
+.map-subtitle {
+  padding-bottom: 0.5rem;
+}
+
+.map-backend h3 {
+  color: #4DBA7A;
+}
+
+.map-front h3 {
+  color: #5EC6F3;
+}
+
+.map-framework h3 {
+  color: #AD85BF;
+}
+
+.map-database h3 {
+  color: #EC6E5A;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
