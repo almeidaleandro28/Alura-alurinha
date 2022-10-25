@@ -1,0 +1,46 @@
+.map{
+  color: $c-white;
+  background-color: $c-gray-dark;
+  margin-top: 1rem;
+  .map-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .map-title {
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.map-courses {
+  .map-course {}
+}
+
+.map-subtitle{
+  padding-bottom: .5rem;
+}
+
+.map-backend{
+  h3{
+    color: $c-green-dark;
+  }
+}
+.map-front{
+  h3{
+    color: $c-blue;
+  }
+}
+.map-framework{
+  h3{
+    color: $c-purple;
+  }
+}
+.map-database{
+  h3{
+    color: $c-orange;
+  }
+}
+
+
+
