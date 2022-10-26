@@ -1,0 +1,23 @@
+.footer {
+  background-color: $c-gray-2;
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+.footer-sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 2;
+  
+}
+
+.contact {
+  .contact-form {}
+  .form-input {}
+  .btn-contact {}
+}

@@ -166,6 +166,23 @@ table {
   color: #EC6E5A;
 }
 
+.footer {
+  background-color: #cccccc;
+}
+.footer .container-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.footer-sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 2;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
