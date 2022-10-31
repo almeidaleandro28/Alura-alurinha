@@ -3,24 +3,26 @@
   
   background-color: $c-gray-2;
   .container-courses {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
     
   }
+  .courses-header {
+    text-align: left;
+  }
+}
+
+.courses-box {
+  background-color: $c-gray-2;
   .course-pack {
-    background-color: $c-gray-2;
-    margin-bottom: 1rem;
-    
+
   }
 }
 
 .course{
   background-color: $c-white;
-  width: 150px;
-  padding-bottom: 1rem;
-  margin-top: 1rem;
+ 
+  @include device( phone ){
+  
+  }
   
   img{}
   h2 {}
