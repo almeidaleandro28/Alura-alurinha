@@ -3,27 +3,51 @@
   
   background-color: $c-gray-2;
   .container-courses {
-    
+    @include device( phone ){
+      
+    }
   }
   .courses-header {
     text-align: left;
+    padding: 1rem 0 1rem 0;
+    @include device( phone ){
+      text-align: center;
+    }
+    @include device( tablet ){
+      text-align: center;
+    }
   }
 }
 
 .courses-box {
   background-color: $c-gray-2;
-  .course-pack {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @include device( phone ){
+    justify-content: center;
+    flex-direction: column;
   }
+  @include device( tablet ) {
+    justify-content: center;
+  }
+}
+
+.course-pack {
+  
 }
 
 .course{
   background-color: $c-white;
- 
-  @include device( phone ){
-  
+  margin-bottom: 1rem;
+  padding: 1rem;
+  .course-header {
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
-  
-  img{}
-  h2 {}
+  .course-footer {
+    h3{}
+  }
 }
