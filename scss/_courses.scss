@@ -1,7 +1,7 @@
 .courses {
   text-align: center;
-  
   background-color: $c-gray-2;
+  
   .container-courses {
     @include device( phone ){
       
@@ -34,6 +34,11 @@
 }
 
 .course-pack {
+  position: relative;
+  @include device( phone ){
+    width: 100%;
+
+  }
   
 }
 
@@ -41,6 +46,9 @@
   background-color: $c-white;
   margin-bottom: 1rem;
   padding: 1rem;
+  @include device( phone ){
+    margin-bottom: 0.5rem;
+  }
   .course-header {
     img {
       width: 100%;

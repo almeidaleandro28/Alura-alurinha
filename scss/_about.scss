@@ -3,13 +3,27 @@
   color: $c-white;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  @include device( phone ){
+    
+  }
+  .container{
+    width: 100%;
+  }
   .container-about {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    @include device( phone ){
+      flex-direction: column;
+      justify-content: center;
+    }
+
   }
   .about-video {
     width: 50%;
+    @include device( phone ){
+      width: 100%;
+    }
   }
 }
 

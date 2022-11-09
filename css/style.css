@@ -132,10 +132,24 @@ table {
   }
 }
 
+.course-pack {
+  position: relative;
+}
+@media screen and (max-width: 576px) {
+  .course-pack {
+    width: 100%;
+  }
+}
+
 .course {
   background-color: #ffffff;
   margin-bottom: 1rem;
   padding: 1rem;
+}
+@media screen and (max-width: 576px) {
+  .course {
+    margin-bottom: 0.5rem;
+  }
 }
 .course .course-header img {
   width: 100%;
@@ -147,13 +161,27 @@ table {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+.about .container {
+  width: 100%;
+}
 .about .container-about {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 576px) {
+  .about .container-about {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .about .about-video {
   width: 50%;
+}
+@media screen and (max-width: 576px) {
+  .about .about-video {
+    width: 100%;
+  }
 }
 
 .about-benefits {
