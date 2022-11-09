@@ -1,9 +1,7 @@
 .header {
   .container-header {
-    align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1rem 0;
     @include device( phone ){
       flex-direction: column;
@@ -12,6 +10,7 @@
 }
 
 .header-branch{
+  text-align: center;
   .logo {}
 }
 
@@ -20,6 +19,7 @@
   .nav-items {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     @include device( phone ){
       flex-direction: column;   
   }
