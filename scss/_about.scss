@@ -4,7 +4,7 @@
   padding-bottom: 2rem;
   padding-top: 2rem;
   @include device( phone ){
-    
+    padding: 0;
   }
   .container{
     width: 100%;
@@ -15,7 +15,8 @@
     flex-wrap: wrap;
     @include device( phone ){
       flex-direction: column;
-      justify-content: center;
+      text-align: center;
+     
     }
 
   }
@@ -33,6 +34,9 @@
   justify-content: space-between;
   text-align: center;
   width: 50%;
+  @include device( phone ){
+    width: 100%;
+  }
   h3 {
     padding-bottom: .1rem;
     text-transform: uppercase;
@@ -44,6 +48,13 @@
   .btn-register {
     background-color: $c-orange;
     color: $c-white;
+    width: 90%;
+    margin-left: 1rem;
+    padding: 8px 10px;
+    @include device( phone ){
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
   }
 }
 

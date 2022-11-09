@@ -161,6 +161,11 @@ table {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+@media screen and (max-width: 576px) {
+  .about {
+    padding: 0;
+  }
+}
 .about .container {
   width: 100%;
 }
@@ -172,7 +177,7 @@ table {
 @media screen and (max-width: 576px) {
   .about .container-about {
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
   }
 }
 .about .about-video {
@@ -191,6 +196,11 @@ table {
   text-align: center;
   width: 50%;
 }
+@media screen and (max-width: 576px) {
+  .about-benefits {
+    width: 100%;
+  }
+}
 .about-benefits h3 {
   padding-bottom: 0.1rem;
   text-transform: uppercase;
@@ -202,6 +212,15 @@ table {
 .about-benefits .btn-register {
   background-color: #EC6E5A;
   color: #ffffff;
+  width: 90%;
+  margin-left: 1rem;
+  padding: 8px 10px;
+}
+@media screen and (max-width: 576px) {
+  .about-benefits .btn-register {
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
 }
 
 .map {
