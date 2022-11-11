@@ -2,19 +2,36 @@
   color: $c-white;
   background-color: $c-gray-dark;
   margin-top: 1rem;
+  .container {
+    @include device( phone ){
+      width: 100%;
+    }
+  }
+
   .map-list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    @include device( phone ){
+      flex-direction: column;
+      padding-left: 0.5rem;
+    }
   }
+
   .map-title {
     padding-left: 5rem;
     padding-bottom: 2rem;
+    @include device( phone ){
+      text-align: center;
+      padding: 1rem 0;
+    }
   }
 }
 
 .map-courses {
-  .map-course {}
+  .map-course {
+    padding-bottom: 0.5rem;
+  }
 }
 
 .map-subtitle{

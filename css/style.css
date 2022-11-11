@@ -239,14 +239,35 @@ table {
   background-color: #324C64;
   margin-top: 1rem;
 }
+@media screen and (max-width: 576px) {
+  .map .container {
+    width: 100%;
+  }
+}
 .map .map-list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+@media screen and (max-width: 576px) {
+  .map .map-list {
+    flex-direction: column;
+    padding-left: 0.5rem;
+  }
+}
 .map .map-title {
   padding-left: 5rem;
   padding-bottom: 2rem;
+}
+@media screen and (max-width: 576px) {
+  .map .map-title {
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+
+.map-courses .map-course {
+  padding-bottom: 0.5rem;
 }
 
 .map-subtitle {
