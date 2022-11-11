@@ -1,10 +1,16 @@
 .footer {
   background-color: $c-gray-2;
+  .container {
+    width: 100%;
+  }
   .container-footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    @include device( phone ){
+      flex-direction: column;
+    }
   }
 }
 
@@ -17,6 +23,10 @@
 }
 
 .contact {
+  @include device( phone ){
+    padding-top: 0.5rem;
+    text-align: center;
+  }
   .contact-form {}
   .form-input {}
   .btn-contact {}

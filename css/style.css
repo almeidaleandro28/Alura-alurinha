@@ -293,11 +293,19 @@ table {
 .footer {
   background-color: #cccccc;
 }
+.footer .container {
+  width: 100%;
+}
 .footer .container-footer {
   display: flex;
   justify-content: space-between;
   padding-bottom: 1rem;
   padding-top: 1rem;
+}
+@media screen and (max-width: 576px) {
+  .footer .container-footer {
+    flex-direction: column;
+  }
 }
 
 .footer-sponsors {
@@ -307,6 +315,12 @@ table {
   flex-grow: 2;
 }
 
+@media screen and (max-width: 576px) {
+  .contact {
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+}
 html {
   height: 100vh;
 }
