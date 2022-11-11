@@ -205,9 +205,20 @@ table {
   padding-bottom: 0.1rem;
   text-transform: uppercase;
 }
+@media screen and (max-width: 576px) {
+  .about-benefits h3 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
 .about-benefits p {
   padding-bottom: 0.3rem;
   text-transform: capitalize;
+}
+@media screen and (max-width: 576px) {
+  .about-benefits p {
+    line-height: 1.5;
+  }
 }
 .about-benefits .btn-register {
   background-color: #EC6E5A;
