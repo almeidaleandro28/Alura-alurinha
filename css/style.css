@@ -90,6 +90,10 @@ table {
   border: 1px solid #cccccc;
   margin-right: 0.5rem;
 }
+.header-nav .nav-item:hover {
+  background-color: #cccccc;
+  transition: 3s;
+}
 @media screen and (max-width: 576px) {
   .header-nav .nav-item {
     text-align: center;

@@ -28,6 +28,10 @@
     padding: .5rem;
     border: 1px solid $c-gray-2;
     margin-right: .5rem;
+    &:hover {
+      background-color: $c-gray-2;
+      transition: 3s;
+    }
     @include device( phone ){
       text-align: center;
     }
