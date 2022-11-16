@@ -293,8 +293,10 @@ table {
 .footer {
   background-color: #cccccc;
 }
-.footer .container {
-  width: 100%;
+@media screen and (max-width: 576px) {
+  .footer .container {
+    width: 100%;
+  }
 }
 .footer .container-footer {
   display: flex;

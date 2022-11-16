@@ -1,7 +1,9 @@
 .footer {
   background-color: $c-gray-2;
   .container {
-    width: 100%;
+    @include device( phone ){
+      width: 100%;
+    }
   }
   .container-footer {
     display: flex;
